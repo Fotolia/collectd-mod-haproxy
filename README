@@ -1,0 +1,14 @@
+=== Haproxy module for collectd ==
+
+This plugin was originally written by Emeric Brun for Exceliance.
+Small modifications for Fotolia by Nicolas Szalay
+
+== How to use ==
+
+under debian :
+
+apt-get install collectd-dev
+make
+make install (as root)
+
+Also tested under freebsd, you just have to adjust paths for headers & installation.

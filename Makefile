@@ -1,4 +1,4 @@
-PREFIX=/usr/
+PREFIX=/usr/${EXTRA_PREFIX}
 PLUGINDIR=${PREFIX}/lib/collectd
 INCLUDEDIR=/usr/include/collectd/ ${EXTRA_INCLUDE}
 
